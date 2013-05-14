@@ -1,0 +1,10 @@
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\bin\Debug\Diceroller.exe
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\bin\Debug\Diceroller.pdb
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.Form1.resources
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.Properties.Resources.resources
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.csproj.GenerateResource.Cache
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.exe
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.pdb
+C:\Users\Todd\documents\visual studio 2010\Projects\Diceroller\Diceroller\obj\x86\Debug\Diceroller.csprojResolveAssemblyReference.cache
+C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.exe
+C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.pdb
