@@ -34,5 +34,69 @@ namespace Diceroller
             totalD6.Text = total.ToString();
         }
 
+        private void d8_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+            int total = 0;
+            resultD8.Text = "";
+            for (int i = 0; i < numericD8.Value; i++)
+            {
+                int die = (random.Next(8) + 1);
+                resultD8.Text += die.ToString() + " ";
+                total += die;
+
+            }
+
+            totalD8.Text = total.ToString();
+        }
+
+        private void d10_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+            int total = 0;
+            resultD10.Text = "";
+            for (int i = 0; i < numericD10.Value; i++)
+            {
+                int die = (random.Next(10) + 1);
+                resultD10.Text += die.ToString() + " ";
+                total += die;
+
+            }
+
+            totalD10.Text = total.ToString();
+        }
+
+        private void d12_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+            int total = 0;
+            resultD12.Text = "";
+            for (int i = 0; i < numericD12.Value; i++)
+            {
+                int die = (random.Next(12) + 1);
+                resultD12.Text += die.ToString() + " ";
+                total += die;
+
+            }
+
+            totalD12.Text = total.ToString();
+        }
+
+        private void d20_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+            int total = 0;
+            resultD20.Text = "";
+            for (int i = 0; i < numericD20.Value; i++)
+            {
+                int die = (random.Next(20) + 1);
+                resultD20.Text += die.ToString() + " ";
+                total += die;
+
+            }
+
+            totalD20.Text = total.ToString();
+        }
+
         }
 }

@@ -73,6 +73,7 @@
             this.d8.TabIndex = 1;
             this.d8.Text = "D8";
             this.d8.UseVisualStyleBackColor = true;
+            this.d8.Click += new System.EventHandler(this.d8_Click);
             // 
             // d10
             // 
@@ -82,6 +83,7 @@
             this.d10.TabIndex = 2;
             this.d10.Text = "D10";
             this.d10.UseVisualStyleBackColor = true;
+            this.d10.Click += new System.EventHandler(this.d10_Click);
             // 
             // d12
             // 
@@ -91,6 +93,7 @@
             this.d12.TabIndex = 3;
             this.d12.Text = "D12";
             this.d12.UseVisualStyleBackColor = true;
+            this.d12.Click += new System.EventHandler(this.d12_Click);
             // 
             // d20
             // 
@@ -100,6 +103,7 @@
             this.d20.TabIndex = 4;
             this.d20.Text = "D20";
             this.d20.UseVisualStyleBackColor = true;
+            this.d20.Click += new System.EventHandler(this.d20_Click);
             // 
             // numericD6
             // 
