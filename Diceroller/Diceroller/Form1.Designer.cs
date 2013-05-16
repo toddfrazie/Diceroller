@@ -49,6 +49,10 @@
             this.totalD12 = new System.Windows.Forms.TextBox();
             this.totalD20 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericD6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericD8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericD10)).BeginInit();
@@ -58,7 +62,7 @@
             // 
             // d6
             // 
-            this.d6.Location = new System.Drawing.Point(220, 88);
+            this.d6.Location = new System.Drawing.Point(220, 93);
             this.d6.Name = "d6";
             this.d6.Size = new System.Drawing.Size(75, 26);
             this.d6.TabIndex = 0;
@@ -68,7 +72,7 @@
             // 
             // d8
             // 
-            this.d8.Location = new System.Drawing.Point(220, 120);
+            this.d8.Location = new System.Drawing.Point(220, 125);
             this.d8.Name = "d8";
             this.d8.Size = new System.Drawing.Size(75, 23);
             this.d8.TabIndex = 1;
@@ -78,7 +82,7 @@
             // 
             // d10
             // 
-            this.d10.Location = new System.Drawing.Point(220, 149);
+            this.d10.Location = new System.Drawing.Point(220, 154);
             this.d10.Name = "d10";
             this.d10.Size = new System.Drawing.Size(75, 23);
             this.d10.TabIndex = 2;
@@ -88,7 +92,7 @@
             // 
             // d12
             // 
-            this.d12.Location = new System.Drawing.Point(220, 178);
+            this.d12.Location = new System.Drawing.Point(220, 183);
             this.d12.Name = "d12";
             this.d12.Size = new System.Drawing.Size(75, 23);
             this.d12.TabIndex = 3;
@@ -98,7 +102,7 @@
             // 
             // d20
             // 
-            this.d20.Location = new System.Drawing.Point(220, 207);
+            this.d20.Location = new System.Drawing.Point(220, 212);
             this.d20.Name = "d20";
             this.d20.Size = new System.Drawing.Size(75, 23);
             this.d20.TabIndex = 4;
@@ -272,11 +276,51 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(44, 77);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Dice Results";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(153, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(36, 13);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Totals";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(217, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 13);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Sides?";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(302, 75);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "How Many?";
+            // 
             // clear
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 454);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.totalD20);
             this.Controls.Add(this.totalD12);
@@ -333,6 +377,10 @@
         private System.Windows.Forms.TextBox totalD12;
         private System.Windows.Forms.TextBox totalD20;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
