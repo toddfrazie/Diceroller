@@ -11,6 +11,6 @@ C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Di
 C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\bin\Debug\Diceroller.exe
 C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\bin\Debug\Diceroller.pdb
 C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.csprojResolveAssemblyReference.cache
-C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.Form1.resources
 C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.Properties.Resources.resources
 C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.csproj.GenerateResource.Cache
+C:\Users\Todd\Documents\GitHub\Diceroller\Diceroller\Diceroller\obj\x86\Debug\Diceroller.clear.resources

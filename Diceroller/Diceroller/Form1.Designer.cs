@@ -1,6 +1,6 @@
 ﻿namespace Diceroller
 {
-    partial class Form1
+    partial class clear
     {
         /// <summary>
         /// Required designer variable.
@@ -48,6 +48,7 @@
             this.totalD10 = new System.Windows.Forms.TextBox();
             this.totalD12 = new System.Windows.Forms.TextBox();
             this.totalD20 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericD6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericD8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericD10)).BeginInit();
@@ -260,11 +261,23 @@
             this.totalD20.Size = new System.Drawing.Size(60, 20);
             this.totalD20.TabIndex = 19;
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(357, 35);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Clear all";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // clear
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 454);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.totalD20);
             this.Controls.Add(this.totalD12);
             this.Controls.Add(this.totalD10);
@@ -285,7 +298,7 @@
             this.Controls.Add(this.d10);
             this.Controls.Add(this.d8);
             this.Controls.Add(this.d6);
-            this.Name = "Form1";
+            this.Name = "clear";
             this.Text = "Dice Roller";
             ((System.ComponentModel.ISupportInitialize)(this.numericD6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericD8)).EndInit();
@@ -319,6 +332,7 @@
         private System.Windows.Forms.TextBox totalD10;
         private System.Windows.Forms.TextBox totalD12;
         private System.Windows.Forms.TextBox totalD20;
+        private System.Windows.Forms.Button button1;
     }
 }
 

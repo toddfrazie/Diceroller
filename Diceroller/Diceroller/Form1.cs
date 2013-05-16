@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Diceroller
 {
-    public partial class Form1 : Form
+    public partial class clear : Form
     {
-        public Form1()
+        public clear()
         {
             InitializeComponent();
         }
@@ -97,6 +97,22 @@ namespace Diceroller
 
             totalD20.Text = total.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            resultD6.Text = "";
+            resultD8.Text = "";
+            resultD10.Text = "";
+            resultD12.Text = "";
+            resultD20.Text = "";
+
+            totalD6.Text = "";
+            totalD8.Text = "";
+            totalD10.Text = "";
+            totalD12.Text = "";
+            totalD20.Text = "";
+        }
+
 
         }
 }
